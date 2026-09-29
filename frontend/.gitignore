@@ -1,0 +1,21 @@
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# SQLite database
+backend/pos.db
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
